@@ -7,13 +7,13 @@ and protect the DEK, which in turn protects data that is being stored in SQL ser
 
 ## Resources
 
-| Resource      | Description                                  |
-| ------------- | :------------------------------------------- |
-| Platform      | [Instruqt][1]                                |
-| Demo Script   | HCP Packer Essentials - [Demo Guide][2]      |
-| Slides        | HCP Packer Essentials - [Presentation][3]    |
-| GitHub Assets | HCP Packer Essentials - [Instruqt Track][5]  |
-| Contributors  | Joe Thompson, Tom Proctor, Gilberto Castillo |
+| Resource      | Description                                       |
+| ------------- | :------------------------------------------------ |
+| Platform      | [Instruqt][1]                                     |
+| Demo Script   | Transparent Data Encryption - [Demo Guide][2]     |
+| Slides        | Transparent Data Encryption - [Presentation][3]   |
+| GitHub Assets | Transparent Data Encryption - [Instruqt Track][5] |
+| Contributors  | Joe Thompson, Tom Proctor, Gilberto Castillo      |
 
 ---
 ## Innovation Lab: How to engage
