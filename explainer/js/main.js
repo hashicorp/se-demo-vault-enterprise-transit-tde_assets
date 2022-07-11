@@ -1,4 +1,4 @@
-import jsondata from "/js/paths.json" assert { type: "json" };
+import { jsondata } from "/js/paths.js";
 
 const ar_width = 16;
 const ar_height = 9;
