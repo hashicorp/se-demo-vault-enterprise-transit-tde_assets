@@ -1,0 +1,332 @@
+:root {
+    /* Custom for our display matrix */
+    --grid-columns: 12;
+    --cell-width: 75px;
+    --cell-height: var(--cell-width);
+
+    /* Grays */
+    --white: #ffffff;
+    --black: #000000;
+    --gray-6: #f2f2f3;
+    --gray-5: #dbdbdc;
+    --gray-4: #bfbfc0;
+    --gray-3: #727274;
+    --gray-2: #343536;
+    --gray-1: #1d1e1f;
+
+    /* HashiCorp brand color */
+    --brand: #2e71e5;
+    /* CTA-Blue */
+    --brand-secondary: #f2f2f3;
+    --brand-logomark: #000000;
+    --brand-accent: #f2f2f3;
+    --brand-link: #2264d6;
+    --brand-link-on-dark: #4294ff;
+    --brand-text-on-primary: var(--white);
+    --brand-gradient: linear-gradient(50.7deg, #63d0ff 0%, #844fba 100%);
+
+    /* Custom styling */
+    --accent-gradient-start: #844fba;
+    --accent-gradient-end: #d1ebff;
+    --base-color-border: #dbdbdc;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-rendering: optimizeSpeed;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    overflow: hidden;
+    margin: 0px;
+    /* background-color: lightblue; */
+}
+
+.matrix {
+    display: inline-grid;
+    grid-template-columns: repeat(var(--grid-columns), var(--cell-width));
+    grid-template-rows: repeat(var(--grid-rows), var(--cell-height));
+    /* grid-gap: 2px; */
+}
+
+.cell {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+
+    animation: fadeInUp ease forwards;
+    animation-duration: calc(var(--splash-delay) * 500ms);
+    animation-delay: calc(var(--splash-delay) * 200ms);
+    /* background-color: rgba(176, 224, 230, 0.75); */
+}
+
+.cell-span-1-6 {
+    border-radius: 10px;
+    grid-column: span 6;
+    grid-row: span 1;
+}
+
+.cell-span-2-2 {
+    border-radius: 10px;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.cell-span-3-2 {
+    border-radius: 10px;
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.cell-span-3-3 {
+    border-radius: 10px;
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.cell-span-4-2 {
+    border-radius: 10px;
+    grid-column: span 4;
+    grid-row: span 2;
+}
+
+.cell-span-4-4 {
+    border-radius: 10px;
+    grid-column: span 4;
+    grid-row: span 4;
+}
+
+.cell-span-5-5 {
+    border-radius: 10px;
+    grid-column: span 5;
+    grid-row: span 5;
+}
+
+.cell-span-5-6 {
+    border-radius: 10px;
+    grid-column: span 5;
+    grid-row: span 6;
+}
+
+.cell-span-6-5 {
+    border-radius: 10px;
+    grid-column: span 6;
+    grid-row: span 5;
+}
+
+.cell-span-12-5 {
+    border-radius: 10px;
+    grid-column: span 12;
+    grid-row: span 5;
+}
+
+.cell-span-12-6 {
+    border-radius: 10px;
+    grid-column: span 12;
+    grid-row: span 6;
+}
+
+.cell-label-left {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 900;
+    height: calc(var(--cell-height)/2);
+    padding: 10px;
+}
+
+.cell-label-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    height: calc(var(--cell-height)/2);
+    text-align: center;
+    padding: 10px;
+    /* background-color: lightcoral; */
+}
+
+.cell-label-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    height: calc(var(--cell-height)/2);
+    text-align: center;
+    padding: 10px;
+    /* background-color: lightseagreen; */
+}
+
+.cell-decorated {
+    border: 3px solid rgba(151, 151, 151, 0.5);
+}
+
+.cell-text {
+    border: 3px solid rgba(151, 151, 151, 0.5);
+}
+
+.cell-content-small {
+    padding: 0 15px;
+    font-size: small;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 30%;
+    box-shadow: 0 20px 50px var(--gray-4);
+    border-radius: 2rem;
+    z-index: -100;
+    backdrop-filter: blur(2rem);
+    color: #222;
+    border: 0;
+    border-radius: 0.25rem;
+    animation: fadeInUp 1000ms forwards, fade-in 500ms forwards;
+    padding: 20px;
+    max-width: 700px;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30%);
+    }
+
+    30%,
+    50%,
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.next {
+    background-image: url("/img/right-arrow.svg");
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.last {
+    background-image: url("/img/left-arrow.svg");
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 50px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.cell-content-normal {
+    /* width: 400px; */
+    /* display: none; */
+    width: 100%;
+    opacity: 0;
+    animation: fadeInUp 10s ease forwards;
+    animation-delay: calc(var(--splash-delay) * 200ms);
+    border-bottom: solid var(--gray-5);
+}
+
+.cell-content-normal:last-child {
+    border-bottom: none;
+}
+
+.cell-content-normal h1 p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.cell-content-normal h1 {
+    font-size: 24px;
+    padding: 0 0 20px 0px;
+}
+
+.cell-content-normal p {
+    font-size: 18px;
+}
+
+.styled-table {
+    font-size: 18px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    animation: fadeInUp 3s ease forwards;
+    animation-delay: calc(var(--splash-delay) * 100ms);
+    border-width: 5px 0 0 0;
+    border-image: linear-gradient(90deg,
+            var(--accent-gradient-start) 40%,
+            var(--accent-gradient-end) 90%);
+    border-image-slice: 9;
+    border-style: solid;
+}
+
+.styled-table tbody tr {
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 20px;
+    vertical-align: top;
+}
+
+#lightbox {
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--gray-6);
+    display: none;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox svg {
+    max-width: 90%;
+    max-height: 80%;
+    background-color: white;
+    transform: scale(1.5);
+    padding: 20px;
+    box-shadow: 0 20px 50px var(--gray-5);
+    border-radius: 0.5rem;
+    backdrop-filter: blur(2rem);
+}

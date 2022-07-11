@@ -1,0 +1,292 @@
+{
+    "about-this-track": [
+        {
+            "id": 0,
+            "class": "cell-span-5-5",
+            "splash_delay": 3,
+            "image": "vault_logo.svg"
+        },
+        {
+            "id": 2,
+            "class": "cell-span-6-5",
+            "splash_delay": 1,
+            "innerHTML": {
+                "template": "/html/templates/p01_t01.html",
+                "template_class": "cell-content-normal"
+            }
+        }
+    ],
+    "track-contents": [
+        {
+            "id": 0,
+            "class": "cell-span-3-2",
+            "splash_delay": 3,
+            "label": {
+                "text": "Setup Working Environment",
+                "class": "cell-label-top"
+            },
+            "boxtype": "cell-decorated",
+            "innerHTML": {
+                "template": "/html/templates/p04_t01.html",
+                "template_class": "cell-content-small"
+            }
+        },
+        {
+            "id": 14,
+            "class": "cell-span-3-2",
+            "splash_delay": 3,
+            "image": "page_01_hashi-container-3-2-1.svg"
+        },
+        {
+            "id": 15,
+            "class": "cell-span-3-2",
+            "splash_delay": 3,
+            "image": "page_01_hashi-container-3-2-2.svg"
+        },
+        {
+            "id": 16,
+            "class": "cell-span-3-2",
+            "splash_delay": 3,
+            "image": "page_01_hashi-container-3-2-3.svg"
+        },
+        {
+            "id": 17,
+            "class": "cell-span-3-2",
+            "splash_delay": 3,
+            "image": "page_01_hashi-container-3-2-4.svg"
+        },
+        {
+            "id": 4,
+            "class": "cell-span-3-2",
+            "splash_delay": 3,
+            "label": {
+                "text": "Encrypt MSSQL DB",
+                "class": "cell-label-top"
+            },
+            "boxtype": "cell-decorated",
+            "innerHTML": {
+                "template": "/html/templates/p04_t03.html",
+                "template_class": "cell-content-small"
+            }
+        },
+        {
+            "id": 21,
+            "class": "cell-span-3-2",
+            "splash_delay": 3,
+            "label": {
+                "text": "Deploy EKM Provider",
+                "class": "cell-label-top"
+            },
+            "boxtype": "cell-decorated",
+            "innerHTML": {
+                "template": "/html/templates/p04_t02.html",
+                "template_class": "cell-content-small"
+            }
+        },
+        {
+            "id": 25,
+            "class": "cell-span-3-2",
+            "splash_delay": 3,
+            "label": {
+                "text": "Rotate DEK and KEK",
+                "class": "cell-label-top"
+            },
+            "boxtype": "cell-decorated",
+            "innerHTML": {
+                "template": "/html/templates/p04_t04.html",
+                "template_class": "cell-content-small"
+            }
+        }
+    ],
+    "working-environment": [
+        {
+            "id": 0,
+            "class": "cell-span-1-6",
+            "label": {
+                "text": "How this exercise works",
+                "class": "cell-label-left"
+            }
+        },
+        {
+            "id": 7,
+            "class": "cell-span-12-5",
+            "splash_delay": 3,
+            "image": "page_05_hashi-container-11-5.svg"
+        }
+    ],
+    "industry-challenges": [
+        {
+            "id": 0,
+            "class": "cell-span-12-6",
+            "splash_delay": 1,
+            "innerHTML": {
+                "template": "/html/templates/p98_t01.html",
+                "template_class": "cell-content-normal"
+            }
+        }
+    ],
+    "about-tde": [
+        {
+            "id": 0,
+            "class": "cell-span-1-6",
+            "label": {
+                "text": "Attack vectors",
+                "class": "cell-label-left"
+            }
+        },
+        {
+            "id": 7,
+            "class": "cell-span-3-3",
+            "label": {
+                "text": "Unauthorized User",
+                "class": "cell-label-top"
+            },
+            "image": "page_02_hashi-container-3-3.svg",
+            "splash_delay": 3,
+            "modal": "modal1"
+        },
+        {
+            "id": 8,
+            "class": "cell-span-4-2",
+            "label": {
+                "text": "Unauthorized Access",
+                "class": "cell-label-bottom",
+                "color": "red"
+            },
+            "image": "page_02_hashi-container-4-2-1.svg",
+            "splash_delay": 6,
+            "modal": "modal2"
+        },
+        {
+            "id": 9,
+            "class": "cell-span-5-5",
+            "label": {
+                "text": "MS SQL Servers",
+                "class": "cell-label-top"
+            },
+            "image": "page_02_hashi-container-5-5.svg",
+            "splash_delay": 9,
+            "modal": "modal3"
+        },
+        {
+            "id": 10,
+            "class": "cell-span-4-2",
+            "label": {
+                "text": "Unencrypted Data",
+                "class": "cell-label-bottom",
+                "color": "red"
+            },
+            "image": "page_02_hashi-container-4-2-2.svg",
+            "splash_delay": 12,
+            "modal": "modal4"
+        }
+    ],
+    "how-ekm-works": [
+        {
+            "id": 0,
+            "class": "cell-span-1-6",
+            "label": {
+                "text": "Deploying the EKM Provider",
+                "class": "cell-label-left"
+            }
+        },
+        {
+            "id": 7,
+            "class": "cell-span-12-5",
+            "splash_delay": 3,
+            "image": "page_06_hashi-container-11-5.svg"
+        }
+    ],
+    "why-enable-tde": [
+        {
+            "id": 0,
+            "class": "cell-span-5-5",
+            "splash_delay": 3,
+            "image": "vault_logo.svg"
+        },
+        {
+            "id": 2,
+            "class": "cell-span-6-5",
+            "splash_delay": 1,
+            "innerHTML": {
+                "template": "/html/templates/p06_t01.html",
+                "template_class": "cell-content-normal"
+            }
+        }
+    ],
+    "dek-key-exchange": [
+        {
+            "id": 0,
+            "class": "cell-span-1-6",
+            "label": {
+                "text": "Enabling TDE on MS SQL",
+                "class": "cell-label-left"
+            }
+        },
+        {
+            "id": 7,
+            "class": "cell-span-12-5",
+            "splash_delay": 3,
+            "image": "page_07_hashi-container-11-5.svg"
+        }
+    ],
+    "configure-tde-mssql": [
+        {
+            "id": 0,
+            "class": "cell-span-1-6",
+            "label": {
+                "text": "Enabling TDE on MS SQL",
+                "class": "cell-label-left"
+            }
+        },
+        {
+            "id": 7,
+            "class": "cell-span-12-5",
+            "splash_delay": 3,
+            "image": "page_08_hashi-container-11-5.svg"
+        }
+    ],
+    "rotate-dek-kek": [
+        {
+            "id": 0,
+            "class": "cell-span-1-6",
+            "label": {
+                "text": "Rotate DEK - KEK",
+                "class": "cell-label-left"
+            }
+        },
+        {
+            "id": 7,
+            "class": "cell-span-12-5",
+            "splash_delay": 3,
+            "image": "page_09_hashi-container-11-5.svg"
+        }
+    ],
+    "compare-before-after": [
+        {
+            "id": 0,
+            "class": "cell-span-1-6",
+            "label": {
+                "text": "Compare Manual vs. automated",
+                "class": "cell-label-left"
+            }
+        },
+        {
+            "id": 7,
+            "class": "cell-span-12-5",
+            "splash_delay": 3,
+            "image": "page_10_hashi-container-11-5.svg"
+        }
+    ],
+    "summarize-benefits": [
+        {
+            "id": 0,
+            "class": "cell-span-12-6",
+            "splash_delay": 1,
+            "innerHTML": {
+                "template": "/html/templates/p99_t01.html",
+                "template_class": "cell-content-normal"
+            }
+        }
+    ]
+}

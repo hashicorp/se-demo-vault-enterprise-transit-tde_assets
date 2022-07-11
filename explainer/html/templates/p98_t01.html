@@ -1,0 +1,33 @@
+<table class="styled-table">
+    <tr>
+        <th>Challenges</th>
+        <th>Consequences</th>
+    </tr>
+    <tr>
+        <td><strong>Security Model</strong>:
+            With a weak security standard, every database server manages its own
+            Data Encryption Key and Key Encryption Key.
+        </td>
+        <td>The attack surface for database servers inadvertedly offers an additional
+            exploit vector because exfiltrated data can be unencrypted.
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Inefficient Workflow</strong>:
+            Database servers follow manual processes to manage
+            the lifecycle of Data Encryption Keys and Key Encryption Keys.
+        </td>
+        <td>Inconsistent practices to rotate encryption keys, re-encrypt data
+            at rest, and validation of data integrity.
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Inadequate Governance</strong>:
+            There is no centralized audit trail to provide visibility to
+            ensure key management lifecycle is complainant and reported.
+        </td>
+        <td>Teams do not follow authentication and authorization processes,
+            leading to a waeker defensive posture.
+        </td>
+    </tr>
+</table>

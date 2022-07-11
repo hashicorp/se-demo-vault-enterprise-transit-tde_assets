@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="100px" viewBox="0 0 400 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="hashi-container-4-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow" transform="translate(20.500000, 10.000000)" fill="#000000" fill-rule="nonzero">
+            <path id="Line" d="M18.5,-8.5 L18.5,-0.5 L361.5,-0.5 L361.5,2.5 L18.5,2.5 L18.5,10.5 L-0.5,1 L18.5,-8.5 Z"></path>
+        </g>
+        <g id="square" transform="translate(241.360000, 43.000000)" stroke="#222222" stroke-width="4">
+            <rect id="Rectangle" x="-1.36" y="-2" width="35" height="51" rx="5"></rect>
+        </g>
+        <g id="square" transform="translate(127.306667, 43.000000)" stroke="#222222" stroke-width="4">
+            <rect id="Rectangle" x="-2" y="-2" width="35.3333333" height="51" rx="5"></rect>
+        </g>
+        <g id="square" transform="translate(184.333333, 43.000000)" stroke="#222222" stroke-width="4">
+            <rect id="Rectangle" x="-2" y="-2" width="35.3333333" height="51" rx="5"></rect>
+        </g>
+    </g>
+</svg>
