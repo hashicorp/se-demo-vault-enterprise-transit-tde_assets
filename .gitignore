@@ -24,7 +24,6 @@ wip
 
 # Working variables for wip / development   #
 #############################################
-
 variables.bash
 
 # Readme Backup #
@@ -34,3 +33,7 @@ README.md.backup
 # pipeline6 which is workin progress        #
 #############################################
 pipeline6
+
+# local RFP file for testing #
+##############################
+mssql-tde-dev.rdp
