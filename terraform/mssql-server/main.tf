@@ -67,7 +67,7 @@ resource "azurerm_public_ip" "windows" {
 }
 
 resource "azurerm_network_security_rule" "rdp" {
-  name                        = "Allow RDP"
+  name                        = "Allow_RDP"
   priority                   = 200
   direction                  = "Inbound"
   access                     = "Allow"
@@ -81,7 +81,7 @@ resource "azurerm_network_security_rule" "rdp" {
 }
 
 resource "azurerm_network_security_rule" "ping" {
-  name                        = "Allow ICMP pings"
+  name                        = "Allow_ICMP_pings"
   priority                   = 202
   direction                  = "Inbound"
   access                     = "Allow"
