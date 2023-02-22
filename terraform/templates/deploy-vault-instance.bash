@@ -9,7 +9,7 @@ sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install jq
 
-export VAULT_URL="https://releases.hashicorp.com/vault" VAULT_VERSION="1.10.4+ent"
+export VAULT_URL="https://releases.hashicorp.com/vault" VAULT_VERSION="1.12.3+ent"
 
 curl \
     --silent \
