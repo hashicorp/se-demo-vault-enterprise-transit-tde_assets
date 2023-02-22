@@ -7,7 +7,7 @@ sudo apt update -y
 sudo apt-get install unzip -y
 sudo apt install -y jq
 
-export VAULT_URL="https://releases.hashicorp.com/vault" VAULT_VERSION="1.10.4+ent"
+export VAULT_URL="https://releases.hashicorp.com/vault" VAULT_VERSION="1.12.3+ent"
 
 curl \
     --silent \
