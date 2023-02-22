@@ -81,7 +81,7 @@ resource "azurerm_network_security_rule" "ssh_port" {
 }
 
 resource "azurerm_network_security_rule" "vault_port" {
-  name                        = "Vault API"
+  name                        = "Vault_API"
   priority                    = 101
   direction                   = "Inbound"
   access                      = "Allow"
