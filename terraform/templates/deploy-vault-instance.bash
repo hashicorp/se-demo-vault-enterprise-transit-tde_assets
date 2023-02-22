@@ -2,12 +2,10 @@
 
 #set -euxo pipefail
 
-sudo apt update && sudo apt upgrade -y
+sudo apt remove unattended-upgrades -y
+sudo apt update -y
 sudo apt-get install unzip -y
-sudo apt-get install snapd -y
-sudo systemctl enable --now snapd.socket
-sudo ln -s /var/lib/snapd/snap /snap
-sudo snap install jq
+sudo apt install -y jq
 
 export VAULT_URL="https://releases.hashicorp.com/vault" VAULT_VERSION="1.10.4+ent"
 
