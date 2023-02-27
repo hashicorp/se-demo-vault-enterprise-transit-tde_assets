@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 $EKM_WORKING_DIR="C:\Users\mssql-tde-dev\Desktop"
 $CERT_UPDATE_WORKING_DIR="$Env:USERPROFILE\Downloads"
 $EKM_PROVIDER_SOURCE_URL="https://releases.hashicorp.com/vault-mssql-ekm-provider/0.2.0+ent/vault-mssql-ekm-provider_0.2.0+ent_windows_amd64.zip"
