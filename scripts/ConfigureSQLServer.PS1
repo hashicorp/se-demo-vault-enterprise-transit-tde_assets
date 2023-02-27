@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 $EKM_WORKING_DIR="C:\Users\mssql-tde-dev\Desktop"
 
 if (!(Test-Path -Path $EKM_WORKING_DIR)) {

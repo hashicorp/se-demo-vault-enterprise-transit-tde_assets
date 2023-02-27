@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 data "azurerm_public_ip" "public_ip_data" {
   name                = azurerm_public_ip.windows.name
   resource_group_name = var.resource_group_name

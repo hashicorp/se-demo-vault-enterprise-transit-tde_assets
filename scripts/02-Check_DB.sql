@@ -1,3 +1,6 @@
+-- Copyright (c) HashiCorp, Inc.
+-- SPDX-License-Identifier: MPL-2.0
+
 -- Check the status of database encryption
 
 SELECT * FROM sys.dm_database_encryption_keys;
