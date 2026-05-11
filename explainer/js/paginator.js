@@ -1,3 +1,7 @@
+/**
+ * Copyright IBM Corp. 2022, 2026
+ */
+
 const track_pages = [
     [
         "about-this-track",

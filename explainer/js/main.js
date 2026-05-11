@@ -1,3 +1,7 @@
+/**
+ * Copyright IBM Corp. 2022, 2026
+ */
+
 import { jsondata } from "/js/paths.js";
 
 const ar_width = 16;

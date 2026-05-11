@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2022, 2026
+
 data "azurerm_public_ip" "public_ip_data" {
   name                = azurerm_public_ip.windows.name
   resource_group_name = var.resource_group_name

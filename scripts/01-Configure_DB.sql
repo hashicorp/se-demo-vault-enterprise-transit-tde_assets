@@ -1,3 +1,5 @@
+-- Copyright IBM Corp. 2022, 2026
+
 -- Enable advanced options
 USE master;
 GO
