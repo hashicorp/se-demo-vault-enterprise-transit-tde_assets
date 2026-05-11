@@ -1,3 +1,5 @@
+-- Copyright IBM Corp. 2022, 2026
+
 -- Check the status of database encryption
 
 SELECT * FROM sys.dm_database_encryption_keys;

@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2022, 2026
+
 $EKM_WORKING_DIR="C:\Users\mssql-tde-dev\Desktop"
 
 if (!(Test-Path -Path $EKM_WORKING_DIR)) {

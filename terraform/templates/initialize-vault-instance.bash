@@ -1,4 +1,6 @@
 #!/bin/bash -l
+# Copyright IBM Corp. 2022, 2026
+
 
 set -euxo pipefail
 
